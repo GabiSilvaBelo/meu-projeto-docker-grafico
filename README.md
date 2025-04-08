@@ -11,7 +11,12 @@ Este projeto foi criado para gerar um gráfico de barras simples a partir de um 
 
 ## 🗂 Estrutura do projeto
 
-📁 meu_projeto_docker_grafico ├── grafico.py ├── dados.csv ├── requirements.txt ├── Dockerfile └── grafico.png ← gerado automaticamente após execução
+📁 meu_projeto_docker_grafico 
+├── grafico.py ├
+── dados.csv 
+├── requirements.txt 
+├── Dockerfile 
+└── grafico.png ← gerado automaticamente após execução
 
 ## ⚙️ Como rodar com Docker
 
@@ -29,7 +34,7 @@ docker run -v $(pwd):/app projeto-grafico
 
 4. O arquivo grafico.png será gerado na sua pasta. 🖼️
 
-🧠 Objetivo
+## 🧠 Objetivo
 
 Este projeto foi desenvolvido como exercício prático de como usar Docker no dia a dia de Ciência de Dados para:
 
